@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./design/screenshot.jpg)
+![](./design/active-states.jpg)
 
 ## Welcome! 👋
 
