@@ -1,19 +1,27 @@
 const sumbitBtn = document.querySelector("#btn");
-const rateNumber = document.querySelector(".item");
+const rateNum = document.querySelectorAll("li");
+const numValue = document.querySelectorAll(".item");
+
+let selected = true;
 
 // FUNCTIONS
 function submitRating() {
-  //null
+  console.log(`Clicked submit`);
 }
 
-function selectItem() {
-  //null
-}
+// ForEach
+rateNum.forEach((num) => {
+  num.addEventListener("click", () => {
+    if (selected) {
+      num.classList.add("activeItem");
+      console.log(`added class`);
+    } else {
+      selected = false;
+      num.classList.remove("activeItem");
+      console.log("removed the class");
+    }
+  });
+});
 
 // EVENT LISTENERS
 sumbitBtn.addEventListener("click", submitRating);
-rateNumber.addEventListener("click", selectItem);
-
-// change page to thank you page
-
-// display the "you selected ${item} out of 5"

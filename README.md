@@ -3,7 +3,6 @@
 ### Screenshot
 
 ![](./design/active-states.jpg)
-![](./design/mobile-thank-you-state.jpg.jpg)
 
 ## Welcome! 👋
 
